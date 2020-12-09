@@ -15,7 +15,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		features = "Feature"
 	    ,plugin = {"json:target/cucumber.json"}
 		,glue={"stepDefinition"}
-		,tags={"@Deals"}
+		//,tags={"@Deals"}
 		//,monochrome=true //to display clear output on console in readable format
 		//,dryRun=true //checks the mapping between feature file and stepDef file
 		)
